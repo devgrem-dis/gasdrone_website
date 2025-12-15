@@ -1,0 +1,52 @@
+{/*
+  Detection Capabilities Section
+  Esta sección muestra las capacidades de detección de nuestros modelos de visión por computadora.
+  Contiene un título, descripción general y un grid de cards con iconos, títulos, descripciones e imagen placeholder.
+*/}
+
+{/*
+<section className="py-20 lg:py-28 bg-card">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center max-w-3xl mx-auto mb-16">
+      <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">
+        Capacidades de <span className="text-gradient">Detección</span>
+      </h2>
+      <p className="text-muted-foreground text-lg">
+        Nuestros modelos de visión por computadora analizan el video en tiempo real
+        para identificar automáticamente situaciones de riesgo.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {detectionCapabilities.map((capability, index) => (
+        <div
+          key={capability.title}
+          className="group p-6 lg:p-8 rounded-2xl bg-background border border-border hover-lift"
+        >
+          <div className="flex items-start gap-4 mb-6">
+            <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
+              <capability.icon className="h-6 w-6 text-primary" />
+            </div>
+            <div>
+              <h3 className="font-display font-semibold text-xl mb-2 text-foreground">
+                {capability.title}
+              </h3>
+              <p className="text-muted-foreground">{capability.description}</p>
+            </div>
+          </div>
+
+          {/* Image Placeholder */}
+          <div className="aspect-video rounded-xl bg-muted border border-border overflow-hidden">
+            <div className="h-full flex items-center justify-center">
+              <div className="text-center p-4">
+                <ImageIcon className="h-10 w-10 text-muted-foreground/50 mx-auto mb-2" />
+                <p className="text-muted-foreground/70 text-sm">{capability.placeholder}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+*/}
