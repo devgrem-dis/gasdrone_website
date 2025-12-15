@@ -196,7 +196,7 @@ const Index = () => {
               <div className="aspect-square rounded-2xl bg-card border border-border overflow-hidden">
                 <div className="absolute inset-0 bg-grid-pattern opacity-50" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <video src="./videos/for_example2_stream_detected_web.mp4" autoPlay loop muted/>
+                  <video src="/videos/for_example2_stream_detected_web.mp4" autoPlay loop muted/>
                 </div>
               </div>
               {/* Decorative elements */}

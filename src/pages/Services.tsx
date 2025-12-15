@@ -149,7 +149,7 @@ const Services = () => {
                     {/*<div className="w-20 h-20 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
                       <MonitorPlay className="h-10 w-10 text-primary" />
                     </div>*/}
-                    <video src="./videos/machine_detected.mp4" autoPlay loop muted/>
+                    <video src="/videos/machine_detected.mp4" autoPlay loop muted/>
                   </div>
                 </div>
               </div>
@@ -203,7 +203,7 @@ const Services = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {["0010.jpg", "0260.jpg", "DJI_20251212134200_0058_V.jpg", "0800.jpg", "2110.jpg", "0555.jpg"].map((item) => (
+            {["0010.jpg", "0260.jpg", "DJI_20251212134200_0058_V.jpg", "0800.jpg", "0868.jpg", "0555.jpg"].map((item) => (
               <div
                 key={item}
                 className="aspect-video rounded-xl bg-background border border-border overflow-hidden hover-lift"
@@ -211,7 +211,7 @@ const Services = () => {
                 <div className="h-full flex items-center justify-center">
                   <div className="text-center p-4">
                     <ImageIcon className="h-8 w-8 text-muted-foreground/50 mx-auto mb-2" />
-                    <p className="text-muted-foreground/70 text-sm"><img src={`images/${item}`} alt={item} className="w-full h-auto rounded-lg" /></p>
+                    <p className="text-muted-foreground/70 text-sm"><img src={`/images/${item}`} alt={item} className="w-full h-auto rounded-lg" /></p>
                   </div>
                 </div>
               </div>
