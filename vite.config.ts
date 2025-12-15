@@ -5,7 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/gasdrone_website/", // <- reemplaza con el nombre de tu repo en GitHub
   server: {
     host: "::",
     port: 8080,
