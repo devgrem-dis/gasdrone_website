@@ -66,7 +66,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} – GasDrone · Desarrollado por Gremtech SpA . Todos los derechos reservados.
+            © {new Date().getFullYear()} – GasDrone · Desarrollado por Gremtech SpA. Todos los derechos reservados.
           </p>
           <p className="text-muted-foreground text-sm">
             Empresa chilena de base tecnológica
